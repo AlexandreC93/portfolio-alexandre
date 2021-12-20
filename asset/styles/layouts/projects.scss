@@ -1,0 +1,49 @@
+#project-card {
+  display: flex;
+  flex-flow: column;
+  margin: 20px;
+  padding: 10px;
+  margin-bottom: 50px;
+  width: 80vw;
+  border-radius: 15px;
+  background: linear-gradient($second-purple, $first-purple);
+}
+
+.img-project {
+  border-radius: 15px;
+  margin: 10px;
+  height: 25vh;
+}
+
+#project-text {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  .para-project {
+    text-align: center;
+  }
+}
+
+.project-title {
+  background-color: $black;
+  width: 25vw;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 15px;
+  font-size: 22px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+#projects-page {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.projects-title {
+  border: solid 1px white;
+  border-radius: 15px;
+  text-align: center;
+  width: 40vw;
+}

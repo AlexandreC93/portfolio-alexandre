@@ -1,0 +1,24 @@
+#profil-page {
+  margin-top: 70px;
+  display: flex;
+  flex-flow: column;
+}
+
+.profil-name {
+  font-family: "Bebas Neue", cursive;
+}
+
+.para-profil {
+  text-align: center;
+}
+
+#profil-container {
+  display: flex;
+  flex-flow: row;
+}
+
+.img-profil {
+  border-radius: 15px;
+  margin: 15px;
+  width: 125px;
+}

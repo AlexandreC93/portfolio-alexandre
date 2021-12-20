@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&family=Bebas+Neue&display=swap");
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #f0d2fa;
+  background-color: #373538;
+}
+
+.link {
+  text-decoration: none;
+  color: #f0d2fa;
+}
+
+#contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+#contact-page .contact-title {
+  border: solid 1px white;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#link-box {
+  background-color: #373538;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 2px;
+  font-size: 12px;
+}
+
+#contact-container {
+  border-radius: 15px;
+  width: 70vw;
+  padding: 10px;
+  background: linear-gradient(#985ec6, #b130ee);
+}
+
+#profil-page {
+  margin-top: 70px;
+  display: flex;
+  flex-flow: column;
+}
+
+.profil-name {
+  font-family: "Bebas Neue", cursive;
+}
+
+.para-profil {
+  text-align: center;
+}
+
+#profil-container {
+  display: flex;
+  flex-flow: row;
+}
+
+.img-profil {
+  border-radius: 15px;
+  margin: 15px;
+  width: 125px;
+}
+
+#skills-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.skills-title {
+  padding: 10px;
+  border: solid 1px white;
+  border-radius: 15px;
+}
+
+#skills-container {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+#skills-container #skills-array {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background-color: #b130ee;
+  border-radius: 15px;
+  width: 25vw;
+  height: 31vh;
+  padding: 5px;
+  margin: 8px;
+}
+#skills-container #skills-array h4 {
+  background-color: #373538;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#etiquette {
+  background-color: #e5d4f0;
+  border-radius: 15px;
+  color: black;
+  text-align: center;
+  padding: 3.3px;
+  margin: 9.5px;
+}
+
+#project-card {
+  display: flex;
+  flex-flow: column;
+  margin: 20px;
+  padding: 10px;
+  margin-bottom: 50px;
+  width: 80vw;
+  border-radius: 15px;
+  background: linear-gradient(#985ec6, #b130ee);
+}
+
+.img-project {
+  border-radius: 15px;
+  margin: 10px;
+  height: 25vh;
+}
+
+#project-text {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+#project-text .para-project {
+  text-align: center;
+}
+
+.project-title {
+  background-color: #373538;
+  width: 25vw;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 15px;
+  font-size: 22px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+#projects-page {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.projects-title {
+  border: solid 1px white;
+  border-radius: 15px;
+  text-align: center;
+  width: 40vw;
+}
+
+/*# sourceMappingURL=main.css.map */
