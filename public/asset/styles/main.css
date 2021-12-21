@@ -41,7 +41,6 @@ html {
 }
 
 .btn-nav:hover {
-  border-radius: 15px;
   background-color: #373538;
   transition: 0.3s;
 }
@@ -182,7 +181,7 @@ html {
   background-color: #b130ee;
   border-radius: 15px;
   width: 25vw;
-  height: 31vh;
+  height: 40vh;
   padding: 5px;
   margin: 8px;
 }
@@ -221,12 +220,18 @@ html {
 #project-card {
   display: flex;
   flex-flow: column;
+  transition: 0.5s;
   margin: 20px;
   padding: 10px;
   margin-bottom: 50px;
   width: 80vw;
   border-radius: 15px;
   background: linear-gradient(#985ec6, #b130ee);
+}
+
+#project-card:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 
 .img-project {
@@ -288,7 +293,7 @@ html {
 
   #project-card {
     width: 24vw;
-    height: 40vh;
+    height: 55vh;
   }
 }
 @media only screen and (min-width: 1200px) {

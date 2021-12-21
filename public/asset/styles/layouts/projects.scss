@@ -1,12 +1,20 @@
 #project-card {
   display: flex;
   flex-flow: column;
+  transition: 0.5s;
   margin: 20px;
   padding: 10px;
+
   margin-bottom: 50px;
   width: 80vw;
   border-radius: 15px;
   background: linear-gradient($second-purple, $first-purple);
+}
+
+#project-card:hover {
+  transition: 0.5s;
+
+  transform: scale(1.1);
 }
 
 .img-project {
@@ -67,7 +75,7 @@
 
   #project-card {
     width: 24vw;
-    height: 40vh;
+    height: 55vh;
   }
 }
 
