@@ -1,5 +1,7 @@
 #contact-page {
   display: flex;
+  opacity: 0;
+  transition: 1s ease-in;
   justify-content: center;
   align-items: center;
   flex-flow: column;

@@ -47,6 +47,8 @@ html {
 
 #contact-page {
   display: flex;
+  opacity: 0;
+  transition: 1s ease-in;
   justify-content: center;
   align-items: center;
   flex-flow: column;
@@ -94,6 +96,7 @@ html {
   margin-top: 70px;
   display: flex;
   flex-flow: column;
+  transition: 1s ease-in;
 }
 
 .profil-name {
@@ -154,6 +157,8 @@ html {
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  opacity: 0;
+  transition: 1s ease-in;
 }
 
 .skills-title {
@@ -174,7 +179,8 @@ html {
   align-items: center;
   justify-content: center;
 }
-#skills-container #skills-array {
+
+#skills-array {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -185,7 +191,7 @@ html {
   padding: 5px;
   margin: 8px;
 }
-#skills-container #skills-array h4 {
+#skills-array h4 {
   background-color: #373538;
   padding: 10px;
   border-radius: 15px;
@@ -215,6 +221,12 @@ html {
   #skills-page {
     margin-top: 300px;
     margin-bottom: 300px;
+  }
+
+  #skills-array {
+    width: 20vw;
+    height: 34vh;
+    margin: 25px;
   }
 }
 #project-card {
@@ -273,6 +285,8 @@ html {
 
 #projects-page {
   display: flex;
+  opacity: 0;
+  transition: 1s ease-in;
   flex-flow: column;
   align-items: center;
 }
@@ -305,6 +319,7 @@ html {
   #project-card {
     width: 20rem;
     margin: 32px;
+    height: 45vh;
     align-items: center;
   }
   #project-card img {

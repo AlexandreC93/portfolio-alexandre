@@ -55,6 +55,9 @@
 
 #projects-page {
   display: flex;
+  opacity: 0;
+  transition: 1s ease-in;
+
   flex-flow: column;
   align-items: center;
 }
@@ -88,6 +91,7 @@
   #project-card {
     width: 20rem;
     margin: 32px;
+    height: 45vh;
     align-items: center;
     img {
       width: 15rem;

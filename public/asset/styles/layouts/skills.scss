@@ -1,8 +1,12 @@
 #skills-page {
   display: flex;
+  // visibility: hidden;
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  opacity: 0;
+  // transform: translateX(70px);
+  transition: 1s ease-in;
 }
 
 .skills-title {
@@ -21,23 +25,23 @@
   flex-flow: row;
   align-items: center;
   justify-content: center;
-  #skills-array {
-    h4 {
-      background-color: $black;
-      padding: 10px;
-      // height: 2vh;
-      border-radius: 15px;
-    }
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    background-color: $first-purple;
+}
+#skills-array {
+  h4 {
+    background-color: $black;
+    padding: 10px;
+    // height: 2vh;
     border-radius: 15px;
-    width: 25vw;
-    height: 40vh;
-    padding: 5px;
-    margin: 8px;
   }
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-color: $first-purple;
+  border-radius: 15px;
+  width: 25vw;
+  height: 40vh;
+  padding: 5px;
+  margin: 8px;
 }
 
 #etiquette {
@@ -65,5 +69,11 @@
   #skills-page {
     margin-top: 300px;
     margin-bottom: 300px;
+  }
+
+  #skills-array {
+    width: 20vw;
+    height: 34vh;
+    margin: 25px;
   }
 }
